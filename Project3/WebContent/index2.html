@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Project 3</title>
+</head>
+<body>
+<form action="/Project3/simpleServlet" method="get">
+Project 3<br><br> Find Ids of All Tweets made by Username<label for="username"></label><br>Username:<input
+			type="text" id="username" name="tweetUsername">
+			 <input type="submit" value="submit" name="submitUser"/>
+			
+<br></br>
+Add new Tweet: <br>
+Add ID: <input type="number" id="id" name="tweetId"><br>
+Add Username: <input type="text" id="username" name="tweetUsername1"><br>
+Add Tweet: <input type = "text" id = "tweet" name = "tweet"><br>
+Add Polarity :<br>0<input type="radio" value="0" name="radio_parameter" checked="checked"><br>2
+		<input type="radio" value="2" name="radio_parameter"><br>4
+		<input type="radio" value="4" name="radio_parameter"><br>
+		 <input type="submit" value="submit" name="addTweet"/>
+<br><br>
+Delete Tweet by id:<br>
+ID: <input type="number" id="id" name="tweetId2"><br>
+ <input type="submit" value="submit" name="Remove"/>
+ <br><br>
+Enter Tweet for Prediction: <br>
+Tweet: <input type="text" id="id" name="predictTweet"><br>
+<input type="submit" value="submit" name="predictButton"/><br>  
+<br><br>                      
+<input type="submit" value="Logout" name="Logout"/>
+</body>
+</html>
